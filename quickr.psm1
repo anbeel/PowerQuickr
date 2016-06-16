@@ -232,7 +232,7 @@ function New-QuickrPage {
 		<title type='text'>$name</title>
 		<a:label>$name</a:label>
 		<a:category scheme='tag:ibm.com,2006:td/type' term='page' label='page' />
-		<a:summary type='text'>$content</a:summary>
+		<a:summary type='html'>$content</a:summary>
 		<a:content type='text'>
 			Created by PowerQuickr
 		</a:content>	
